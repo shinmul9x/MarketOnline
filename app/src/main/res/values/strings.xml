@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MarketOnline</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_start_screnn">StartScrenn</string>
+    <string name="btn_get_start">get start</string>
+    <string name="et_username">Ten dang nhap</string>
+    <string name="et_password">Mat khau</string>
+    <string name="btn_register">Tao tai khoan</string>
+    <string name="btn_login">Dang nhap</string>
+    <string name="btn_skip_login">bo qua</string>
+</resources>
