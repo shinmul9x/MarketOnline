@@ -2,7 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.marketonline">
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
     <application
+        android:name=".base.BaseApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -10,8 +15,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".starterscreen.StartScreen"
-            android:label="@string/title_activity_start_screnn"
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".splashscreen.SplashScreen"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,15 +28,47 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name"
+            android:name=".loginscreen.LoginScreen"
+            android:label="@string/title_activity_login_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".mainscreen.MainScreen"
+            android:label="@string/title_activity_main_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".registerscreen.RegisterScreen"
+            android:label="@string/title_activity_register_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".addproductscreen.AddProductScreen"
+            android:label="@string/title_activity_add_product_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".profilescreen.ProfileScreen"
+            android:label="@string/title_activity_profile_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".addimagescreen.AddImageScreen"
+            android:label="@string/title_activity_add_image_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".searchproductscreen.SearchProductScreen"
+            android:label="@string/title_activity_search_product"
             android:theme="@style/AppTheme.NoActionBar">
-            <!--<intent-filter>-->
-            <!--<action android:name="android.intent.action.MAIN" />-->
 
-            <!--<category android:name="android.intent.category.LAUNCHER" />-->
-            <!--</intent-filter>-->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
+        <activity
+            android:name=".previewscreen.PreviewScreen"
+            android:label="Chi tiết sản phẩm"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".profile2.ProfileScreen"
+            android:label="Trang cá nhân"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

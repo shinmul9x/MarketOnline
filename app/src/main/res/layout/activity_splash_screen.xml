@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash">
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginEnd="16dp"-->
+<!--        android:layout_marginBottom="32dp"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_marginBottom="120dp"-->
+<!--            android:background="@drawable/text_outlinebox"-->
+<!--            android:fontFamily="casual"-->
+<!--            android:padding="20dp"-->
+<!--            android:text="Market\nOnline"-->
+<!--            android:textColor="#fff"-->
+<!--            android:textSize="52sp" />-->
+
+<!--        <com.google.android.material.button.MaterialButton-->
+<!--            android:id="@+id/btn_register_action"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="12dp"-->
+<!--            android:paddingStart="32dp"-->
+<!--            android:paddingEnd="32dp"-->
+<!--            android:text="@string/btn_register"-->
+<!--            android:textAlignment="textStart"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textSize="16sp"-->
+<!--            app:cornerRadius="24sp" />-->
+
+<!--        <com.google.android.material.button.MaterialButton-->
+<!--            android:id="@+id/btn_login_action"-->
+<!--            style="@style/Widget.MaterialComponents.Button.OutlinedButton"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="12dp"-->
+<!--            android:paddingStart="32dp"-->
+<!--            android:paddingEnd="32dp"-->
+<!--            android:text="@string/btn_login"-->
+<!--            android:textAlignment="textStart"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textSize="16sp"-->
+<!--            app:cornerRadius="24sp"-->
+<!--            app:strokeColor="@color/colorPrimary" />-->
+
+<!--        <com.google.android.material.button.MaterialButton-->
+<!--            android:id="@+id/btn_skip_login"-->
+<!--            style="@style/Widget.MaterialComponents.Button.TextButton"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="12dp"-->
+<!--            android:paddingStart="32dp"-->
+<!--            android:paddingEnd="32dp"-->
+<!--            android:text="@string/btn_skip_login"-->
+<!--            android:textAlignment="textStart"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textSize="16sp"-->
+<!--            app:cornerRadius="24sp"-->
+<!--            app:strokeColor="@color/colorPrimary" />-->
+<!--    </LinearLayout>-->
+</RelativeLayout>
